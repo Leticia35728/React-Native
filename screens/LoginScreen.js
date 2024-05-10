@@ -20,7 +20,8 @@ const LoginScreen = ({ navigation }) => {
         returnKeyType='Password'
       />
       <Button
-        title="Login" />
+        title="Login"
+        onPress={() => navigation.navigate('Imc')} />
       <Button
         title="Ir para Cadastro"
         onPress={() => navigation.navigate('Cadastro')}
